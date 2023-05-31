@@ -16,5 +16,5 @@ path="/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/bin:/usr/local/go/bin:{{ user_dir
 node_exporter=true
 promtail=true
 log_monitor=http://10.0.0.100:3100
-node_name="BRAND-{{ network }}-{{ type }}"
+node_name="SOROS-{{ network }}-{{ type }}"
 log_name="PREFIX_{{ network }}_{{ type }}"
